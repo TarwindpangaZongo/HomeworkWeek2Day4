@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Activity_Data_Entry">
+
+    <EditText
+        android:id="@+id/etNameDisplay"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_marginTop="2dp"
+        android:textSize="@dimen/textSize"
+        android:hint="Name"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:layout_editor_absoluteX="16dp" />
+
+    <EditText
+        android:id="@+id/etAddressDisplay"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_marginTop="52dp"
+        android:textSize="@dimen/textSize"
+        android:hint="Address"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:layout_editor_absoluteX="0dp" />
+
+    <EditText
+        android:id="@+id/etCityDisplay"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_marginTop="100dp"
+        android:textSize="@dimen/textSize"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:layout_editor_absoluteX="0dp" />
+
+    <EditText
+        android:id="@+id/etStateDisplay"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_marginTop="148dp"
+        android:textSize="@dimen/textSize"
+        android:hint="State"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:layout_editor_absoluteX="0dp" />
+
+    <EditText
+        android:id="@+id/etZipDisplay"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_marginTop="200dp"
+        android:textSize="@dimen/textSize"
+        android:hint="Zip-Code"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:layout_editor_absoluteX="16dp" />
+
+    <EditText
+        android:id="@+id/etPhoneDisplay"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_marginTop="252dp"
+        android:textSize="@dimen/textSize"
+        android:hint="Phone Number"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:layout_editor_absoluteX="16dp" />
+
+
+    <EditText
+        android:id="@+id/etEmailDisplay"
+        android:layout_width="match_parent"
+        android:layout_height="43dp"
+        android:layout_marginTop="300dp"
+        android:textSize="@dimen/textSize"
+        android:hint="Email Address"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:layout_editor_absoluteX="16dp" />
+
+    <Button
+        android:id="@+id/btnStartForResult"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="392dp"
+        android:onClick="onClick"
+        android:text="Start Data Entry Activity for result"
+        android:textSize="18sp"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:layout_editor_absoluteX="16dp" />
+
+</android.support.constraint.ConstraintLayout>
